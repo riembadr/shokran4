@@ -1,0 +1,172 @@
+*{
+    margin: 0%;
+    padding: 0;
+  box-sizing: border-box;
+
+}
+.sh{
+    width: 40px;
+}
+.app{
+    border: solid 2px orange;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.g{
+ color: orange;
+}
+
+.pic{
+    width: 70%;
+}
+.start{
+    color: white;
+    background-color: orange;
+        border: solid 2px orange;
+        border-radius: 20px;
+        padding: 5px 15px;
+        font-weight: bold;
+        margin-left: 30px;
+        cursor: pointer;
+   transition: all 1s;
+
+}
+.start:hover{
+    background-color: rgb(70, 70, 213);
+    border-color:rgb(70, 70, 213) ;
+  }
+.h{
+    font-weight: 700;
+    font-size: 48px;
+}
+h2{
+    font-weight: 400;
+    font-size: 28px;
+    color: gray;
+} 
+img{
+    width:50%;
+}
+.section-2 , .section-5{
+    background-color: rgb(243,245,250);
+}
+header{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 0px;
+    z-index: 9999999999999;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+   
+}
+.gapp{
+    color: orange;
+    background-color: white;
+        border: solid 2px orange;
+        border-radius: 10px;
+        padding: 5px 15px;
+        font-weight: bold;
+        margin-left: 30px;
+        cursor: pointer;
+        padding: 10px 20px;
+   
+
+}
+.gapp:hover{
+    color: white;
+    background-color: orange;
+    & i{
+        color: white;
+    }
+}
+.use{
+    width: 80%;
+}
+.fa-solid {
+color: orange;
+}
+.cati img{
+  width: 85%;
+}
+.cati{
+    transition: all .5s;
+}
+.cati:hover{
+   transform:translateY(-20px) ;
+}
+.w{
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.t{
+    
+    position: relative;
+     bottom: 250px;
+    width: 85%;
+    height: 38px;
+    background-color: orange;
+}
+.brand{
+width: 100%;
+}
+.client {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    transition: all .5s;
+}
+.client:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);
+        transform: scale(1.2);
+}
+.contact{
+    width: 100%;
+    height: 100%;
+}
+ .cad-6-form {
+    border-top: 3px solid orange;
+    border-bottom: 3px solid orange;
+    box-shadow: 0px 0px 20px rgba(32, 32, 32, 0.4);
+}
+ .msg{
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+background-color: orange;
+border: 0px;
+}
+.social-links {
+    display: flex;
+}
+.social-links a{
+    margin: 10px;
+}
+.alo{
+    text-align: left !important; 
+}
+.blue{
+    color:rgb(70, 70, 213) ;
+}
+.blu{
+    border-radius: 50px;
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+}
+.aloo{
+    text-align: left !important; 
+    width: 80%;
+    font-weight: 200;
+    font-size: 14px;
+    color: white;
+}
+.footer{
+    width: 100%;
+    background: rgb(70, 70, 213);
+}
